@@ -2,4 +2,62 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    
+}
+body{
+    margin: 1rem;
+}
+
+.box-header{
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+    height: 40rem;
+    background-color: aquamarine;
+}
+
+.menu{
+    align-items: center;
+    display: flex;
+    height: 2rem;
+    margin-top: 1rem;   
+    background-color: orange;
+    border-style: dashed;
+    
+}   
+
+.logo{
+    padding-left: 1rem;
+    padding-right: 10rem;
+    display: flex;
+    border-right-style: dashed;
+}
+
+.link{
+    padding: 0 10rem 0 10rem;
+    display: flex;
+}
+
+.login{
+    padding-right: 1rem;
+    padding-left: 10rem;
+    display: flex;
+    border-left-style: dashed ;
+}
+
+.front-box{
+    margin-top: 1rem;
+    display: flex;
+    height: 560px;;
+    width: 100vw;
+    background-color: blue;
+}
+
+.pink-box{
+    margin: auto;
+    display:flex;
+    background-color: palevioletred;
+    height: 400px;
+    width: 70vw;
+    border-style: dashed;
 }
