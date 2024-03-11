@@ -50,7 +50,7 @@ body{
     border-left-style: dashed ;
 }
 
-.front-box{
+.blu-box{
     margin-top: 1rem;
     display: flex;
     height: 560px;;
@@ -142,3 +142,21 @@ body{
     border-style: dashed;
     
 }
+/* box verde */
+.grey-box{
+    margin-top: 1rem;
+    display: flex;
+    height: 1300px;;
+    width: 100vw;
+    background-color: lightgray;
+}
+
+.green-box{
+    margin: auto;
+    display:flex;
+    background-color: green;
+    height: 1000px;
+    width: 1200px;
+    border-style: dashed;
+}
+/* fine box verde */
