@@ -17,6 +17,8 @@ body{
 }
 
 .menu{
+    width: 1200px;
+    margin: auto;
     align-items: center;
     display: flex;
     height: 2rem;
@@ -28,19 +30,22 @@ body{
 
 .logo{
     padding-left: 1rem;
-    padding-right: 10rem;
+    width: calc(25%);
     display: flex;
     border-right-style: dashed;
 }
 
 .link{
+    justify-content: center;
+    width: calc(50%);
     padding: 0 10rem 0 10rem;
     display: flex;
 }
 
 .login{
+    justify-content: flex-end;
+    width: calc(25%);
     padding-right: 1rem;
-    padding-left: 10rem;
     display: flex;
     border-left-style: dashed ;
 }
@@ -53,11 +58,87 @@ body{
     background-color: blue;
 }
 
-.pink-box{
+.big-box{
     margin: auto;
     display:flex;
     background-color: palevioletred;
     height: 400px;
-    width: 70vw;
+    width: 1200px;
     border-style: dashed;
+}
+/* fine header */
+
+/* main */
+
+/* primo box */
+.box-main{
+    display: flex;
+    height: 600px;
+}
+
+.container{
+    margin: auto;
+    width: 1200px;
+    display: flex;
+}
+.box-blu{
+    background-color: blue;
+    width: calc(60%);
+    height: 30rem;
+    border-style: dashed;
+}
+
+.box-pink{
+    background-color: pink;
+    width: calc(40%);
+    height: 30rem;
+    border-style: dashed;
+    
+}
+
+/* secondo box */
+
+.box-main1{
+    background-color: lightgray;
+    display: flex;
+    height: 600px;
+}
+
+.container{
+    margin: auto;
+    width: 1200px;
+    display: flex;
+}
+.box-blu1{
+    background-color: pink;
+    width: calc(60%);
+    height: 30rem;
+    border-style: dashed;
+}
+
+.box-pink1{
+    background-color: blue;
+    width: calc(40%);
+    height: 30rem;
+    border-style: dashed;
+}
+ /* terzo box */
+ .container{
+    margin: auto;
+    width: 1200px;
+    display: flex;
+}
+.box-blu{
+    background-color: blue;
+    width: calc(60%);
+    height: 30rem;
+    border-style: dashed;
+}
+
+.box-pink{
+    background-color: pink;
+    width: calc(40%);
+    height: 30rem;
+    border-style: dashed;
+    
 }
