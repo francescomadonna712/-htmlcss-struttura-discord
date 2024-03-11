@@ -111,14 +111,14 @@ body{
 }
 .box-blu1{
     background-color: pink;
-    width: calc(60%);
+    width: calc(40%);
     height: 30rem;
     border-style: dashed;
 }
 
 .box-pink1{
     background-color: blue;
-    width: calc(40%);
+    width: calc(60%);
     height: 30rem;
     border-style: dashed;
 }
@@ -160,3 +160,67 @@ body{
     border-style: dashed;
 }
 /* fine box verde */
+
+/* inizio footer */
+.box-footer{
+    display: flex;
+    height: 1000px;
+    background-color:  rgb(48, 48, 48);
+}
+.container-footer{
+    margin: auto;
+    width: 1200px;
+    display: flex;
+}
+.box-red{
+    background-color: lightcoral;
+    width: calc(60%);
+    height: 50rem;
+    border-style: dashed;
+}
+
+.box-acqua{
+    background-color: aquamarine;
+    width: calc(40%);
+    height: 50rem;
+    border-style: dashed;
+    
+}
+
+
+.box-footer1{
+    display: flex;
+    height: 70px;
+    background-color: rgb(48, 48, 48);
+}
+
+.final-footer{
+    justify-content: space-between;
+    display: flex;
+        width: 1200px;
+        margin: auto;
+        align-items: center;
+        height: 3rem;
+        margin-top: 1rem;   
+        background-color: rgb(0, 255, 204);
+       
+}
+
+.logo-footer{  
+    background-color: palevioletred;
+    width: fit-content;
+    height: fit-content;
+    padding-left: 1rem;
+    display: flex;
+    border-style: dashed;
+}
+
+.button-footer{
+    background-color: palevioletred;
+    width: fit-content;
+    height: fit-content;
+    padding-left: 1rem;
+    display: flex;
+    border-style: dashed;
+
+}
